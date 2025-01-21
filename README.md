@@ -26,7 +26,9 @@ A modern, responsive **Image Search Engine** application that allows users to ex
 
 ## 📂 Project Structure
 
+```
 ├── index.html # Main HTML file ├── style.css # Styling file ├── script.js # JavaScript logic └── README.md # Project documentation
+```
 
 
 
