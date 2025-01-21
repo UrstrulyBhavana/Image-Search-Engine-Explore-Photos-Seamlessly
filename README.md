@@ -26,9 +26,16 @@ A modern, responsive **Image Search Engine** application that allows users to ex
 
 ## 📂 Project Structure
 
-```
+
 ├── index.html # Main HTML file ├── style.css # Styling file ├── script.js # JavaScript logic └── README.md # Project documentation
-```
+
+Set Up API Access:
+
+Replace the accessKey in the script.js file with your Unsplash API key:
+javascript
+Copy
+
+
 
 
 
