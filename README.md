@@ -1,55 +1,32 @@
-# Dynamic Image Search Engine with Infinite Scrolling
+# 🖼️ Image Search Engine
 
-> A responsive web application for searching and browsing high-quality images with seamless infinite scrolling.
+A modern, responsive **Image Search Engine** application that allows users to explore high-quality images using the Unsplash API. This project showcases my frontend development skills, focusing on seamless API integration, responsive design, and user-friendly interfaces.
 
 ---
 
 ## 🚀 Features
-- 🔍 **Search Images**: Enter keywords to fetch relevant images from Unsplash.
-- 📜 **Load More Results**: Fetch additional images with the "Show More" button.
-- 📱 **Responsive Design**: Works seamlessly across devices.
-- 🔗 **Direct Links**: Each image links to its original Unsplash page.
-- 🎨 **Customizable Style**: Fully styled using modern CSS.
+
+- **Dynamic Image Search**: Search for images with a keyword and fetch relevant results from the Unsplash API.
+- **Infinite Scroll**: Load additional images with the "Show More" button for continuous exploration.
+- **Direct Navigation**: Each image links to its original page on Unsplash.
+- **Responsive Design**: Fully responsive layout for desktops, tablets, and mobile devices.
+- **Custom Styling**: Aesthetic and intuitive user interface crafted with CSS.
 
 ---
 
 ## 🛠️ Technologies Used
-- **Frontend**: 
-  - HTML5
-  - CSS3
-  - JavaScript (ES6+)
-- **API**: Unsplash API
-- **Tools**: Visual Studio Code
 
+- **HTML5**: Structuring the web page.
+- **CSS3**: Styling and layout design.
+- **JavaScript (ES6+)**: API integration and dynamic functionality.
+- **Unsplash API**: Fetching images and metadata.
+- **Version Control**: Git and GitHub for project management.
 
+---
 
-### Prerequisites
+## 📂 Project Structure
 
-- A modern web browser (Chrome, Firefox, Edge, etc.)
-- Basic knowledge of HTML, CSS, and JavaScript.
-- An API key from [Unsplash Developers](https://unsplash.com/developers).
--  Ensure you generate and use your Unsplash API access key.
-
-### File Structure
-
-📦 image-search-engine
-├── index.html       # The main HTML file
-├── style.css        # The CSS file for styling
-├── script.js        # JavaScript for functionality
-└── README.md        # Project documentation
-
-
-### Usage :-
-Open the search engine in your browser.
-Enter a keyword in the search box (e.g., "nature", "technology").
-Click the Search button or hit Enter.
-Browse the images that appear below the search box.
-Scroll down for more images to load automatically.
-
-
-
-
-
+├── index.html # Main HTML file ├── style.css # Styling file ├── script.js # JavaScript logic └── README.md # Project documentation
 
 
 
