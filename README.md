@@ -17,8 +17,11 @@ A responsive and interactive image search engine that allows users to search for
 - **🌐 Unsplash API:** Fetches high-quality images for the search results.
 
 ## 🗂️ Project Structure
-
-/project-folder ├── index.html # The main HTML file containing the structure of the page. ├── style.css # The CSS file responsible for styling the layout. ├── script.js # The JavaScript file that implements image search and infinite scrolling.
+```
+/project-folder ├── index.html # The main HTML file containing the structure of the page.
+                ├── style.css # The CSS file responsible for styling the layout.
+                ├── script.js # The JavaScript file that implements image search and infinite scrolling.
+```
 
 
 ## 💻 Installation
