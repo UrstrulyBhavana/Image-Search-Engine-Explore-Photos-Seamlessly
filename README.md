@@ -1,67 +1,92 @@
-# 🖼️ Dynamic Image Search Engine with Infinite Scrolling
+# 🖼️ SnapSearch – Image Search Engine Web App
 
-A responsive and interactive image search engine that allows users to search for stunning images using the Unsplash API. The app features infinite scrolling, dynamic image loading, and a user-friendly interface, making it a seamless experience for anyone searching for beautiful images.
+---
 
-## ⚡ Features
-- **🔍 Search Functionality:** Search for images based on your desired keywords.
-- **📸 Image Display:** Images are displayed in a responsive grid with smooth transitions.
-- **🔄 Infinite Scrolling:** Click on "Show more" to load additional images dynamically.
-- **📱 Responsive Design:** Optimized for desktops, tablets, and mobile devices.
-- **🌐 API Integration:** Fetches images from the Unsplash API based on user input.
+## 📽️ Demo
 
-
-## 🛠️ Technologies Used
-- **🎨 HTML5:** Provides the structure of the image search engine.
-- **🎨 CSS3:** Styles the page with a modern, user-friendly design.
-- **✨ JavaScript:** Handles the dynamic image search, infinite scroll, and API requests.
-- **🌐 Unsplash API:** Fetches high-quality images for the search results.
-
-## 🗂️ Project Structure
-```
-/project-folder ├── index.html # The main HTML file containing the structure of the page.
-                ├── style.css # The CSS file responsible for styling the layout.
-                ├── script.js # The JavaScript file that implements image search and infinite scrolling.
-```
-
-
-## 💻 Installation
-
-To run the project locally, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/image-search-engine.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd image-search-engine
-    ```
-3. Open the `index.html` file in your browser to view the project.
-
-## 🔧 How It Works
-
-1. **🔍 Search Images:** Enter a keyword in the search box and hit "Search" to find images based on the query.
-2. **🖼️ Display Results:** Images are shown in a responsive grid layout, each clickable to open in a new tab.
-3. **🔄 Infinite Scrolling:** Click the "Show more" button to load additional images.
-
-## 🔑 API Key Setup
-
-To use the Unsplash API, you'll need your own API key. Follow these steps:
-1. Go to the [Unsplash Developer Website](https://unsplash.com/developers).
-2. Sign up or log in.
-3. Create an application to get your **Access Key**.
-4. Replace the `accessKey` variable in `script.js` with your key:
-    ```javascript
-    const accessKey = "your-access-key-here";
-    ```
-
-
-## 🤝 Acknowledgements
-- [Unsplash API](https://unsplash.com/documentation) for providing access to high-quality images.
-
-
-  ## 🚀 Live Demo
-
+> Discover the seamless image browsing experience with **SnapSearch**:
 
 https://github.com/user-attachments/assets/8e54145c-accd-4b1a-86f4-e9d1e891dc2c
 
+---
+
+## 🧾 Overview
+
+**SnapSearch** is a minimal and responsive image search engine that allows users to search and explore high-quality images in real-time using the **Unsplash API**. Designed using **HTML**, **CSS**, and **JavaScript**, the app showcases results dynamically with smooth transitions, making photo discovery intuitive and engaging.
+
+---
+
+## ✨ Features
+
+🔍 Search Any Keyword – Retrieve images based on any search term using the Unsplash API.  
+📸 Dynamic Grid – Responsive image grid layout that adjusts based on screen size.  
+🌀 Loading Indicator – Spinner while fetching results for a smoother experience.  
+🎯 Search Suggestions – Encourages creative exploration with clear user prompts.  
+🌐 API Integration – Built with Unsplash’s powerful image search engine.  
+📱 Fully Responsive – Works on desktop, tablet, and mobile devices.
+
+---
+
+## 🛠️ Built With
+
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat-square)  
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat-square)  
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)  
+![Unsplash API](https://img.shields.io/badge/-Unsplash_API-000000?logo=unsplash&logoColor=white&style=flat-square)
+
+---
+
+## 📁 Folder Structure
+
+```plaintext
+Image-Search-Engine/
+├── index.html           # Main page layout
+├── style.css            # Styling for layout and responsiveness
+├── script.js            # Logic for fetching and displaying images
+├── spinner.gif          # Loader animation
+├── README.md            # Documentation
+```
+
+---
+
+## 💻 Installation
+
+1. **Clone the repository:**
+
+```bash
+$ git clone https://github.com/UrstrulyBhavana/Image-Search-Engine.git
+$ cd Image-Search-Engine
+```
+
+2. **Run the App:**
+
+Simply open `index.html` in your browser — no server required.
+
+3. **Configure API Key (Optional):**
+
+If using your own Unsplash API key, replace it inside `script.js` where the `access_key` is defined.
+
+---
+
+## 🧩 Functionalities Recap
+
+1. Users can input search queries and see related photos.
+2. Fetches dynamic photo results in real-time using the Unsplash API.
+3. Spinner shown during data load to improve UX.
+4. Responsive photo grid layout adjusts for all screen sizes.
+5. Minimalistic design focused on the image display experience.
+
+---
+
+## 🙋‍♀️ Author
+
+**Linga Bhavana** – Frontend Developer
+
+- 📧 **Email**: [urstrulybhavana1432@gmail.com](mailto:urstrulybhavana1432@gmail.com)  
+- 🐙 **GitHub**: [UrstrulyBhavana](https://github.com/UrstrulyBhavana)
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the `LICENSE` file for full details.
