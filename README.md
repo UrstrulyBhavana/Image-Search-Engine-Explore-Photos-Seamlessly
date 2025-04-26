@@ -1,7 +1,5 @@
 # 🖼️ SnapSearch – Image Search Engine Web App
 
----
-
 ## 📽️ Demo
 
 > Discover the seamless image browsing experience with **SnapSearch**:
