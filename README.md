@@ -16,14 +16,27 @@ https://github.com/user-attachments/assets/8e54145c-accd-4b1a-86f4-e9d1e891dc2c
 
 ## ✨ Features
 
-🔍 Search Any Keyword – Retrieve images based on any search term using the Unsplash API.  
-📸 Dynamic Grid – Responsive image grid layout that adjusts based on screen size.  
-🌀 Loading Indicator – Spinner while fetching results for a smoother experience.  
-🎯 Search Suggestions – Encourages creative exploration with clear user prompts.  
-🌐 API Integration – Built with Unsplash’s powerful image search engine.  
-📱 Fully Responsive – Works on desktop, tablet, and mobile devices.
+- 🔎 Real-time image search using the **Unsplash API**
+- 📥 Fetches results in **pages** using `client_id` and `query` parameters
+- ♾️ **Infinite scrolling** via "Show More" button with page tracking
+- 💡 Clear UI feedback: hides button when not needed, resets layout on new search
+- 📱 Fully responsive grid layout using **CSS Grid**
+- ✨ Minimal, elegant UI styled with custom CSS and hover animations
 
 ---
+
+## 🔐 API Setup
+
+This project uses the [Unsplash API](https://unsplash.com/documentation) to fetch image results. To make it work:
+
+1. Create a free account on [Unsplash Developers](https://unsplash.com/developers)
+2. Create a new app to get your **Access Key**
+3. Replace the key in `script.js`:
+
+```js
+const accessKey = "YOUR_ACCESS_KEY_HERE";
+
+```
 
 ## 🛠️ Built With
 
